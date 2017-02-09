@@ -1,9 +1,9 @@
-<<<<<<< HEAD
-##Data
+
+#Data
 All datafiles are contained in the folder "UCI HAR Dataset."  This folder should be in the working directory with the analysis script run\_analysis.R.  The analysis script should be run from the working directory.
 
-##Script
-#Files
+#Script
+##Files
 The script run\_analysis.R reads in the following files:
 * y\_test.txt: List of activities corresponding to observations in the test data set, identified by activity ID number.  Stored in test\_y\_df.
 * y\_train.txt: List of activities corresponding to observations in the training data set, identified by activity ID number.  Stored in train\_y\_df.
@@ -13,7 +13,7 @@ The script run\_analysis.R reads in the following files:
 * subject\_train.txt:  List of subjects corresponding to the observations in the test set, identified by subject ID number 1-30.  Stored in train\_sub\_df.
 * features.txt:  List of feature names corresponding to the collumns in X\_train and X\_test.  Stored as features\_df.
 * activity\_labels.txt:  List of activity labels corresponding to the activity ID numbers in y\_test and y\_train.  Stored in actLabels\_df.
-#Analysis steps performed by script
+##Analysis steps performed by script
 * Create new data frames test\_X\_fltrd\_df and train\_X\_fltrd\_df that contain only the mean() and std() columns from X\_test and X\_train.
 * Apply activity names to the activities in y\_test and y\_train by matching the activity IDs to labels in actLabels\_df.
 * Combine test and train sets into single date frames for each of X, y, and subjects.
@@ -22,7 +22,3 @@ The script run\_analysis.R reads in the following files:
 * Write tidy\_df to a CSV called tidyData.csv.
 
 
-=======
-# gettingCleaningData\_project
-course project for Getting and Cleaning Data from JHU on Coursera
->>>>>>> 7fbcde5d6e9fc87fabcef1f868ed781d10289b5c
