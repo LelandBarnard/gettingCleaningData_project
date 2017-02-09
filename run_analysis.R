@@ -40,5 +40,5 @@ combined_df <- select(cbind(all_y_df, all_sub_df, all_X_df), -V1)
 #Find the mean by activity and subject and create a new tidy data frame.
 tidy_df <- summarise_all(group_by(combined_df, activity, subject), mean)
 
-#Write the tidy_df data frame to a CSV
-write.table(tidy_df, file = "./tidyData.csv", sep = ",")
+#Write the tidy_df data frame to a txt
+write.table(tidy_df, file = "./tidyData.txt", row.name = FALSE, sep = " ")
