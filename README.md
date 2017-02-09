@@ -13,6 +13,7 @@ The script run\_analysis.R reads in the following files:
 * subject\_train.txt:  List of subjects corresponding to the observations in the test set, identified by subject ID number 1-30.  Stored in train\_sub\_df.
 * features.txt:  List of feature names corresponding to the collumns in X\_train and X\_test.  Stored as features\_df.
 * activity\_labels.txt:  List of activity labels corresponding to the activity ID numbers in y\_test and y\_train.  Stored in actLabels\_df.
+
 ##Analysis steps performed by script
 * Create new data frames test\_X\_fltrd\_df and train\_X\_fltrd\_df that contain only the mean() and std() columns from X\_test and X\_train.
 * Apply activity names to the activities in y\_test and y\_train by matching the activity IDs to labels in actLabels\_df.
