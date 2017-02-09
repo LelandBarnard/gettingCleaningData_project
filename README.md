@@ -1,9 +1,10 @@
+<<<<<<< HEAD
 ##Data
-All datafiles are contained in the folder "UCI HAR Dataset."  This folder should be in the working directory with the analysis script run_analysis.R.  The analysis script should be run from the working directory.
+All datafiles are contained in the folder "UCI HAR Dataset."  This folder should be in the working directory with the analysis script run\_analysis.R.  The analysis script should be run from the working directory.
 
 ##Script
 #Files
-The script run_analysis.R reads in the following files:
+The script run\_analysis.R reads in the following files:
 * y\_test.txt: List of activities corresponding to observations in the test data set, identified by activity ID number.  Stored in test\_y\_df.
 * y\_train.txt: List of activities corresponding to observations in the training data set, identified by activity ID number.  Stored in train\_y\_df.
 * X\_test.txt: Table of feature values from the test data set, with each column corresponding to one feature and each row to feature values from one observation.  Stored in test\_X\_df.
@@ -21,3 +22,7 @@ The script run_analysis.R reads in the following files:
 * Write tidy\_df to a CSV called tidyData.csv.
 
 
+=======
+# gettingCleaningData\_project
+course project for Getting and Cleaning Data from JHU on Coursera
+>>>>>>> 7fbcde5d6e9fc87fabcef1f868ed781d10289b5c
